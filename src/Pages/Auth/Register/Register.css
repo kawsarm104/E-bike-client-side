@@ -1,0 +1,22 @@
+form {
+    
+  margin: 10% 10%;
+  padding: 2%;
+  
+}
+form input {
+  display: block;
+  
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+}
+.error {
+  color: red;
+}
+.submit-btn{
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+
+.purchase-form input {
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width:100%;
+    /* width: 300px; */
+}
+.error{
+    color: red;
+}

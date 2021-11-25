@@ -1,0 +1,23 @@
+.add-new-item {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.add-new-item form {
+  margin: 30px 150px;
+}
+
+.add-new-item form input,
+textarea {
+  display: block;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+}
+.error {
+  color: red;
+}
+.signin-btn {
+  background-color: #c371a3;
+}

@@ -1,0 +1,15 @@
+.banner-div {
+  top: 20rem;
+  /* background-color: red; */
+  align-items: left;
+}
+.banner-class {
+  overflow-x: hidden;
+}
+.best-electric-parent {
+  position: relative;
+}
+.best-electric-child {
+  position: absolute;
+  top: 27%;
+}
