@@ -25,6 +25,9 @@ const Home = () => {
   return (
     <>
       <Banner></Banner>
+      <div className="text-center ">
+        <h1 className="fw-bolder my-5 fs-2 ">FEATURED PRODUCT</h1>
+      </div>
       <div className="container-fluid row mx-auto">
         {allProducts.slice(0, 8).map((product) => (
           <BikesChild key={product._id} service={product}></BikesChild>
