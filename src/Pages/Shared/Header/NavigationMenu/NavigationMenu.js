@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../../../Hooks/useAuth";
 import logo from "../../../../images/logo/ebikenavicon.png";
-import "./NavigationMenu.css"
+import "./NavigationMenu.css";
 const NavigationMenu = () => {
   const { user, logOut } = useAuth();
   return (
@@ -37,14 +37,14 @@ const NavigationMenu = () => {
                 <Nav.Link as={NavLink} to="/dashboard">
                   Dashboard
                 </Nav.Link>
-                <button onClick={logOut}> Log Out</button>
+                <Nav.Link onClick={logOut}> Log Out</Nav.Link>
+                <Nav.Link as={NavLink} to ="#">Name: {user?.displayName}</Nav.Link>
               </>
             ) : (
               <li className="nav-item mx-3">
-                <Link to="/login">Login</Link>
+                <Nav.Link as={NavLink}  to="/login">Login</Nav.Link>
               </li>
             )}
-            <p>Name: {user?.displayName}</p>
           </Nav>
         </Navbar.Collapse>
       </Container>
