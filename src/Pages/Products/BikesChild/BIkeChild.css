@@ -5,7 +5,7 @@
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
-  transition: 0.5s ease;
+  transition: 0.1s ease;
   opacity: 0;
   color: white;
   font-size: 20px;
@@ -20,4 +20,27 @@
 .details-button:hover{
     
   border-bottom: 3px solid white;
+}
+.image-zoom {
+	position: relative;
+	/* border: 1px solid #333; */
+	overflow: hidden;
+	/* width: 400px; */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.image-zoom .img {
+	vertical-align: top;
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.image-zoom:hover .img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }

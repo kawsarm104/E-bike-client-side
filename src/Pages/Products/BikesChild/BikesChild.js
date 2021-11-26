@@ -8,8 +8,8 @@ const BikesChild = (props) => {
   const { _id, name, price, details, photoUrl } = props.service;
   return (
     <div className=" col-sm-12 col-md-6 col-lg-3 g-1 my-2 bike-card">
-      <Card className="h-100 m-auto border-1">
-        <Card.Img variant="top" className="img-fluid" src={photoUrl} />
+      <Card className="h-100 m-auto border-1 image-zoom">
+        <Card.Img variant="top" className="img-fluid img" src={photoUrl} />
         <div className="overlay">
           <Card.Body className="text-center ">
             <Card.Title>{name}</Card.Title>
