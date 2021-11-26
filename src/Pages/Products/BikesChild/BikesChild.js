@@ -22,9 +22,9 @@ const BikesChild = (props) => {
           </Card.Body>
           <Card.Footer className="d-flex justify-content-end border-0 shadow-none">
             <Link to={`/purchase/${_id}`}>
-              <Button variant="secondary " className="p-2  rounded details-button">
+              <span  className="p-2  rounded details-button bg-none shadow-none">
                 View Details
-              </Button>{" "}
+              </span>{" "}
             </Link>
           </Card.Footer>
         </div>
