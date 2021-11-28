@@ -18,7 +18,10 @@ const Home = () => {
   if (!allProducts.length > 0) {
     return (
       <div className="text-center loading-spinner mt-5">
-        <Spinner animation="border" variant="warning" />
+        <Spinner animation="grow" variant="warning" />
+        <Spinner animation="grow" variant="warning" />
+        <Spinner animation="grow" variant="warning" />
+        <Spinner animation="grow" variant="warning" />
       </div>
     );
   }
