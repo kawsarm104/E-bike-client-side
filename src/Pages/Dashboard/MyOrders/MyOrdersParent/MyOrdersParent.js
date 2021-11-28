@@ -42,7 +42,7 @@ const MyOrdersParent = () => {
   //   console.log(uniqUserOrder, "uniquser");
   return (
     <div className="container ">
-      <div className="row mt-5">
+      <div className="row">
         <div className="table-responsive">
           <table className="shadow table table-striped table-hover">
             <thead>

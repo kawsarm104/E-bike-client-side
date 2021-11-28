@@ -110,7 +110,7 @@ const Dashboard = () => {
                 )}
 
                 <li className="mt-4 d-flex justify-content-center">
-                  <Button onClick={handleLogOut} className="btn-grad">
+                  <Button onClick={handleLogOut} className="btn btn-outline-primary">
                     <i className="fa fa-user pe-2"></i> <em> Log Out</em>
                   </Button>
                 </li>
